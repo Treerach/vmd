@@ -430,62 +430,6 @@ def SEND_MESSAGE(op):
 		if "stealgroupimage" in msg.text:
 		    group = client.getGroup(msg.to)
 		    sendMessage(msg.to,"Gambar Grup :\n=> http://dl.profile.line-cdn.net/" + group.pictureStatus)
-		if "Spamcontact @" in msg.text:
-                    _name = msg.text.replace("Spamcontact @","")
-                    _nametarget = _name.rstrip(' ')
-                    gs = client.getGroup(msg.to)
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                           client.sendMessage(g.mid,"Spam")
-                    sendMessage(msg.to, "Spam Done")
-                    print "\nSpammed !\n"
 		if msg.text == "cancel":
                     group = client.getGroup(msg.to)
                     if group.invitee is None:
@@ -494,12 +438,6 @@ def SEND_MESSAGE(op):
                         gInviMids = [contact.mid for contact in group.invitee]
                         client.cancelGroupInvitation(msg.to, gInviMids)
                         sendMessage(msg.to, str(len(group.invitee)) + " Orang Yang udah dicancel yak")
-		if "Gbc " in msg.text:
-                    print "Berhasil BC ke Semua Grup"
-                    bctxt = msg.text.replace("Gbc ","")
-                    n = client.getGroupIdsJoined()
-                    for people in n:
-                        client.sendMessage(people, (bctxt))
 		if "invgcreator" in msg.text:
                     if msg.toType == 2:
                          ginfo = client.getGroup(msg.to)
@@ -527,21 +465,6 @@ def SEND_MESSAGE(op):
                              client.cancelGroupInvitation(msg.to,[gCreator])
 			     print "\nSuccess Cancel Invite gCreator"
                          except:
-                             pass
-		if "info @" in msg.text:
-                     name = msg.text.replace("info @","")
-                     target = name.rstrip(' ')
-                     group = client.getGroup(msg.to)
-		     contact = [contact.displayName for contact in group.members]
-                     for contact in group.members:
-                         if target == contact.displayName:
-                             contact = client.getContact(contact.mid)
-                             try:
-                                 cover = client.channel.getCover(contact.mid)
-                             except:
-                                 cover = ""
-                                 client.sendMessage(msg.to,"[Display Name]:\n" + contact.displayName + "\n\n[Mid]:\n" + contact.mid + "\n\n[BIO]:\n" + contact.statusMessage + "\n\n[Photo Profile]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n\n[Cover]:\n" + str(cover))
-                         else:
                              pass
 		if "botmaker" in msg.text:
 		    M = Message()
@@ -787,14 +710,6 @@ def SEND_MESSAGE(op):
 			client.cancelGroupInvitation(msg.to,[mid])
                     except:
 			pass
-		if "showcloneinfo:1" in msg.text:
-                    mid = ("u6db82b481cff8971ede277f8a5c0b6fb")
-                    contact = client.getContact(mid)
-                    try:
-                       cover = client.channel.getCover(mid)
-                    except:
-                       cover = ""
-                       client.sendMessage(msg.to,"[Nama Profil]:\n" + contact.displayName + "\n\n[Mid]:\n" + mid + "\n\n[Pesan Status]:\n" + contact.statusMessage + "\n\n[Photo Profil]:\n=> http://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[Cover Photo]:\n=> " + str(cover))
 		if "rename:" in msg.text:
                     string = msg.text.replace("rename:","")
                     if len(string.decode('utf-8')) <= 20:
