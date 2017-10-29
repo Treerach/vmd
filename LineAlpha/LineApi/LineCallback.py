@@ -9,7 +9,6 @@ class LineCallback(object):
 
     def QrUrl(self, url):
         self.callback("Login Dengan Kode QR Dalam 2 Menit\n" + url)
-        qrcode_terminal.draw(url)
 
     def default(self, str):
         self.callback(str)
