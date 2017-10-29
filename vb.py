@@ -185,7 +185,7 @@ def SEND_MESSAGE(op):
 		    groupid = client.getGroup(gid)
 		    contact = client.getContact(mid)
 		    contact1 = client.getContact(mid1)
-		    sendMessage(msg.to,"\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n\n-----------------------------------------------------------------------\n「Bantuan LD Bots :」\n» [нelp0] = Base Command\n» [нelp1] = Clone/MyBF Command\n» [нelp2] = Mod Command\n» [нelp3] = Use For Kicker Only Command\n\n「Info Bots :」\n» Based on : Vodka\n» Support By : " + groupid.name + "\n» Modding By : " + contact.displayName + "\n» Coding By : •" + contact.displayName + "\n                         •" + contact1.displayName + "\n» Version Mod : 3.1.1beta\n-----------------------------------------------------------------------\n\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n")
+		    sendMessage(msg.to,"\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n\n-----------------------------------------------------------------------\n「Bantuan LD Bots :」\n» [нelp0] = Base Command\n» [нelp1] = Clone/MyBF Command\n» [нelp2] = Mod Command\n» [нelp3] = Use For Kicker Only Command\n\n「Info Bots :」\n» Based on : Vodka\n» Support By : " + groupid.name + "\n» Coding By : •" + contact.displayName + "\n                        •" + contact1.displayName + "\n» Modding By : " + contact.displayName + "\n» Version Mod : 3.1.1beta\n-----------------------------------------------------------------------\n\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n")
 		if "help0" in msg.text:
 	       	    sendMessage(msg.to,"\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n\n-----------------------------------------------------------------------\n「Help Command [Base Command] :」\n=> [seţ]\n=> [siďer]\n=> [ʍe]\n=> [ʍid]\n=> [ǥid]\n=> [ǥinfo]\n=> [ţime]\n=> [þuka]\n=> [ţutup]\n=> [µrl]\n=> [ǥift]\n=> [ȼancel]\n=> [ɨnvite:「By Mid」]\n=> [ȿhow:「By Mid」]\n-----------------------------------------------------------------------\n\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n")
 		if "help1" in msg.text:
@@ -193,7 +193,7 @@ def SEND_MESSAGE(op):
 		if "help2" in msg.text:
 		    sendMessage(msg.to,"\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n\n-----------------------------------------------------------------------\n「Help Command [Mod Command] :」\n=> [ǥrandom:「Nomor」]\n=> [μp]\n=> [ȿpeed]\n=> [ţagall]\n=> [Ğn 「Nama」]\n=> [ǥroupȼreate]\n=> [ȿtealǥroupɨmage]\n=> [ɨnvǥȼreator]\n=> [кickǥȼreator]\n=> [ȼancelǥȼreator]\n=> [ɨnvмαкєявσт]\n=> [вσтмαкєя]\n=> [яename:「Ganti Nama Profil」]\n=> [ȿetþio:「Ganti Pesan Status」]\n-----------------------------------------------------------------------\n\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n")
 		if "help3" in msg.text:
-		    sendMessage(msg.to,"\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n\n-----------------------------------------------------------------------\n「Help Command  [Use For Kicker Only] :」\n=> [к:「By Name」]\n=> [кick:「By Mid」\n=> [ик「By Tag」]\n=> [мulai]\n=> [µni]\n=> [вye「By Tag」]\n-----------------------------------------------------------------------\n\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n")
+		    sendMessage(msg.to,"\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n\n-----------------------------------------------------------------------\n「Help Command  [Use For Kicker Only] :」\n=> [νки:「By Name」]\n=> [νкмid:「By Mid」\n=> [νк「By Tag」]\n=> [мulai]\n=> [µni]\n=> [вye「By Tag」]\n-----------------------------------------------------------------------\n\n                   Ḷ̩̼̝̺̘͖ͩͨ͛ͬ̇̎Ì̢͕̪̮̤̻̠̬͂̉Ň̵̪̙͊͐̿ͧE̸̖̯̗̥͍̳̻̳ͤͬͥͨ̑̄ͮ ̓̍ͣͣͮ҉̝͇͓̱͙D̼̪̿̉̔̈́ͥͨ͟Ḛ̡̫̮͔͓̫̈̄̊̌̎̀̋͟V͚̬͕̝̣͍͇̲͖̉̓͋ͨ̚͢͞E͓ͪ̐̿̇̃͋̂͗L͚̦̝̎̄̾́͠O̵͎̹̻̘̒͂̌̾͒͒̇̀P̷͖̬̲͕̖͍ͤ͒ͮ̿̌̕ͅE͈̖͉͖̻̒́̆͒̓̋ͣͅR̷̭͚̯̔ͤ͂ͧ̇͟S̵̺̞͓̥̖͍͈ͩ̌̌̾̀̔͒͑ ̷̢̧̥͎̯̀̆͌B̶̛͎̹̯̎̏ͯ̀̓̉͒͐̈́͜Ō͗̈́͋ͯͭ͠҉͏͈̘͔̙̱̯̥̯͉T͕̹̲̱̱̠̜̃͋ͧ̂̌̆ͫ͒̒͠S͖ͨ̓̾̂\n")
 		if "Gn " in msg.text:
 		    if msg.toType == 2:
 			X = client.getGroup(msg.to)
@@ -253,7 +253,7 @@ def SEND_MESSAGE(op):
                         group.preventJoinByTicket = True
                         client.updateGroup(group)
                         sendMessage(msg.to, "URL ditutup")
-                if "kick:" in msg.text:
+                if "vkmid:" in msg.text:
                     key = msg.text[5:]
                     client.kickoutFromGroup(msg.to, [key])
                     contact = client.getContact(key)
@@ -372,8 +372,26 @@ def SEND_MESSAGE(op):
                         client.cancelGroupInvitation(msg.to,[mid3])
                     except:
 			pass
-		if "nk" in msg.text:
-                    bamz0 = msg.text.replace("nk ","")
+		if "Spam: " in msg.text:
+                cond = msg.text.split(" ")
+                value = int(cond[2])
+                text = msg.text.replace("Spam: " + str(cond[1]) + " " + str(value) + " ","")
+                ballon1 = value * (text + "\n")
+                if cond[1] == "on":
+                    if value <= 150:
+                        for x in range(value):
+                            client.sendMessage(msg.to, text)
+                    else:
+                        client.sendMessage(msg.to,"Jumlah spamming melebihi batas")
+                elif cond[1] == "off":
+                    if value <= 200:
+                        client.sendMessage(msg.to,ballon1)
+                    else:
+                        client.sendMessage(msg.to,"Jumlah spamming melebihi batas")
+                else:
+                    client.sendMessage(msg.to,"Error condition")
+		if "vk" in msg.text:
+                    bamz0 = msg.text.replace("vk ","")
                     bamz1 = bamz0.lstrip()
                     bamz2 = bamz1.replace("@","")
                     bamz3 = bamz2.rstrip()
@@ -389,7 +407,7 @@ def SEND_MESSAGE(op):
                         sendMessage(msg.to, ""+contact.displayName+" maapin say 􀜁􀅔Har Har􏿿")
                     else:
                         sendMessage(msg.to,"salah goblog 􀜁􀅔Har Har􏿿")
-		if "k:" in msg.text:
+		if "vkn:" in msg.text:
                     key = msg.text[3:]
                     group = client.getGroup(msg.to)
                     Names = [contact.displayName for contact in group.members]
@@ -430,6 +448,62 @@ def SEND_MESSAGE(op):
 		if "stealgroupimage" in msg.text:
 		    group = client.getGroup(msg.to)
 		    sendMessage(msg.to,"Gambar Grup :\n=> http://dl.profile.line-cdn.net/" + group.pictureStatus)
+		if "Spamcontact @" in msg.text:
+                    _name = msg.text.replace("Spamcontact @","")
+                    _nametarget = _name.rstrip(' ')
+                    gs = cl.getGroup(msg.to)
+                    for g in gs.members:
+                        if _nametarget == g.displayName:
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                           client.sendMessage(g.mid,"Spam")
+                    sendMessage(msg.to, "Spam Done")
+                    print "\nSpammed !\n"
 		if msg.text == "cancel":
                     group = client.getGroup(msg.to)
                     if group.invitee is None:
@@ -438,6 +512,12 @@ def SEND_MESSAGE(op):
                         gInviMids = [contact.mid for contact in group.invitee]
                         client.cancelGroupInvitation(msg.to, gInviMids)
                         sendMessage(msg.to, str(len(group.invitee)) + " Orang Yang udah dicancel yak")
+		if "Gbc " in msg.text:
+                    print "Berhasil BC ke Semua Grup"
+                    bctxt = msg.text.replace("Gbc ","")
+                    n = client.getGroupIdsJoined()
+                    for people in n:
+                        client.sendMessage(people, (bctxt))
 		if "invgcreator" in msg.text:
                     if msg.toType == 2:
                          ginfo = client.getGroup(msg.to)
