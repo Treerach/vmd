@@ -99,6 +99,7 @@ class LineApi(object):
         self._thriftTransport.targetPath(url.LINE_AUTH_QUERY_PATH)
         qr = self._client.getAuthQrcode(keepLoggedIn, systemName)
         self.callback.QrUrl("line://au/q/" + qr.verifier)
+        qrcode_terminal.draw("line://au/q/" + qr.verifier)
         url.set_Headers('X-Line-Application', url.AppName)
         url.set_Headers('X-Line-Access', qr.verifier)
         verified = url.get_json(
@@ -110,7 +111,6 @@ class LineApi(object):
         print self.authToken
         self.onLogin()
         self._thriftTransport.targetPath(url.LINE_API_QUERY_PATH_FIR)
-        qrcode_terminal.draw("line://au/q/" + qr.verifier)
 
     def setCallback(self, callback):
         self.callback = LineCallback(callback)
