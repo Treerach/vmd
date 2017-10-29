@@ -46,21 +46,6 @@ class LineClient(LineApi):
     def post_content(self, urls, data=None, files=None):
         return self._session.post(urls, headers=self._headers, data=data, files=files)
 
-    @loggedIn
-    def getHome(self,mid):
-        header = {
-                    "Content-Type": "application/json",
-                    "User-Agent" : self.UA,
-                    "X-Line-Mid" : self.mid,
-                    "x-lct" : self.channel_access_token,
-        }
-
-    @loggedIn
-    def getCover(self,mid):
-        h = self.getHome(mid)
-        objId = h["result"]["homeInfo"]["objectId"]
-        return "http://dl.profile.line-cdn.net/myhome/c/download.nhn?userid=" + mid + "&oid=" + objId
-
     """Image"""
 
     @loggedIn
@@ -101,6 +86,22 @@ class LineClient(LineApi):
             self.sendImage(to_, path)
         except Exception as e:
             raise e
+          
+    @loggedIn
+    def getHome(self, mid):
+        header = {
+                    "Content-Type": "application/json",
+                    "User-Agent" : self.UA,
+                    "X-Line-Mid" : self.mid,
+                    "x-lct" : self.channel_access_token,
+        }
+
+    @loggedIn
+    def getCover(self, mid):
+        h = self.getHome(mid)
+        objId = h["result"]["homeInfo"]["objectId"]
+        return "http://dl.profile.line-cdn.net/myhome/c/download.nhn?userid=" + mid + "&oid=" + objId
+    
     """User"""
 
     @loggedIn
@@ -151,12 +152,6 @@ class LineClient(LineApi):
     @loggedIn
     def post_content(self, url, data=None, files=None):
         return self._session.post(url, headers=self._headers, data=data, files=files)
-    
-    @loggedIn
-    def getCover(self, mid):
-        h = self.getHome(mid)
-        objId = h["result"]["homeInfo"]["objectId"]
-        return "http://dl.profile.line-cdn.net/myhome/c/download.nhn?userid=" + mid + "&oid=" + objId
 
     """Contact"""
 
