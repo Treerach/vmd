@@ -373,23 +373,23 @@ def SEND_MESSAGE(op):
                     except:
 			pass
 		if "Spam: " in msg.text:
-                cond = msg.text.split(" ")
-                value = int(cond[2])
-                text = msg.text.replace("Spam: " + str(cond[1]) + " " + str(value) + " ","")
-                ballon1 = value * (text + "\n")
-                if cond[1] == "on":
-                    if value <= 150:
-                        for x in range(value):
-                            client.sendMessage(msg.to, text)
+                    cond = msg.text.split(" ")
+                    value = int(cond[2])
+                    text = msg.text.replace("Spam: " + str(cond[1]) + " " + str(value) + " ","")
+                    ballon1 = value * (text + "\n")
+                    if cond[1] == "on":
+                        if value <= 150:
+                            for x in range(value):
+                                client.sendMessage(msg.to, text)
+                        else:
+                            client.sendMessage(msg.to,"Jumlah spamming melebihi batas")
+                    elif cond[1] == "off":
+                        if value <= 200:
+                            client.sendMessage(msg.to,ballon1)
+                        else:
+                            client.sendMessage(msg.to,"Jumlah spamming melebihi batas")
                     else:
-                        client.sendMessage(msg.to,"Jumlah spamming melebihi batas")
-                elif cond[1] == "off":
-                    if value <= 200:
-                        client.sendMessage(msg.to,ballon1)
-                    else:
-                        client.sendMessage(msg.to,"Jumlah spamming melebihi batas")
-                else:
-                    client.sendMessage(msg.to,"Error condition")
+                        client.sendMessage(msg.to,"Error condition")
 		if "vk" in msg.text:
                     bamz0 = msg.text.replace("vk ","")
                     bamz1 = bamz0.lstrip()
